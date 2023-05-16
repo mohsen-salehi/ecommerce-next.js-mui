@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "variables";
+
+a{
+  text-decoration: none;
+  color: inherit !important;
+}
+
+.header{
+  background-color: $orange-color;
+}
+.content{
+  margin-top: 90px;
+  min-height: 80vh;
+}
+.footer{
+  display : flex ;
+  justify-content : center;
+  padding : 30px 0 ;
+
+}
+.buttons{
+  background-color: $cream-color !important;
+}
+.border-orange-bottom {
+  border-bottom: 1px solid $orange-color;
+}
+.p-2{
+padding: 8px;
+}
